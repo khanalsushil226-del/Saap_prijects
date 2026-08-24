@@ -23,7 +23,7 @@ if item1 in menu:
 else:
     print(f"Ordered item {item1} is not available currently.")
 
-another_order = input("Do you want to order anything else? (Yes/No): ")
+another_order = input("Do you want to order anything else? (Yes/No): ").capitalize()
 
 if another_order == "Yes":
     item2 = input("Enter another item you want to order: ").capitalize()
