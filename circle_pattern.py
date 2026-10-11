@@ -5,7 +5,7 @@ screen.bgcolor("black")
 
 t = turtle.Turtle()
 t.speed(0)
-t.pencolor("#00ffcc")
+t.pencolor("#f9f5f5")
 
 for i in range(36):
     t.circle(100)
